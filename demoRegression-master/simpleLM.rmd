@@ -61,7 +61,7 @@ abline(MYWEIGHT)
 summary.lm(MYWEIGHT)
 
 ```
-In WEIGHT the residual standard error is 5.432 and R-squared is 0.7472. This would be as of now would be second best. the order being CHEST,NECK, WEIGTH, and HEADWTH.
+In WEIGHT the residual standard error is 5.432 and R-squared is 0.7472. This would be as of now would be second best. the order of residual standard error being CHEST 4.939, WEIGHT5.432 NECK 5.736, and HEADWTH 7.32. While R-squared by now is HEADWYH 0.5409, WEIGHT .07432, NECK 0.7467 and CHEST 0.791,
 
 
 
