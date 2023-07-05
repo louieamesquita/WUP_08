@@ -97,12 +97,13 @@ abline(MYMONTH)
 summary.lm(MYMONTH)
 ```
 
-Month now takes the top with residual standard error being 10.99 and r-squared being 0.08423. The new list for residual being  4.235 HEADLEN, CHEST 4.939, WEIGHT5.432 NECK 5.736, HEADWTH 7.32, Sex 10.75 and MONTH 10.99. While R-squared by now is SEX 0.01065, HEADWTH 0.5409, WEIGHT .07432 MONTH 0.08423, NECK 0.7467 , CHEST 0.791 and HEADLEN 0.8434. 
+Month now takes the top with residual standard error being 10.99 and r-squared being 0.08423. The new list for residual being  4.235 HEADLEN, CHEST 4.939, WEIGHT 5.432 NECK 5.736, HEADWTH 7.32, Sex 10.75 and MONTH 10.99. While R-squared by now is SEX 0.01065, HEADWTH 0.5409, WEIGHT .07432 MONTH 0.08423, NECK 0.7467 , CHEST 0.791 and HEADLEN 0.8434. 
 
 
 
-
-
+Conclusion.
+With all the data grafted out and organized the the order for residual standard square is HEADLEN 4.235 , CHEST 4.939, WEIGHT 5.432 NECK 5.736, HEADWTH 7.32, Sex 10.75 and MONTH 10.99. while list for r-squared is 
+SEX 0.01065, WEIGHT 0.07432 ,MONTH 0.08423, HEADWTH 0.5409 , NECK 0.7467 , CHEST 0.791 and HEADLEN 0.8434.
 
 
 
