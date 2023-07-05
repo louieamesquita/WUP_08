@@ -51,7 +51,7 @@ abline(MYHEADWTH)
 summary.lm(MYHEADWTH)
 ```
 
-
+In the third graph the residual standard erorr is at 7.32 and t r-squared is 0.5409. in the comparision this result ranks last on the list
 
 
 
