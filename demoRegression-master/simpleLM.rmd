@@ -86,10 +86,16 @@ abline(MYSEX)
 summary.lm(MYSEX)
 
 ```
-Sex is going to have a different type of graph but still has the same results we can use. SEX has both the best and worst numbers in each category.   The new list for residual being  4.235 HEADLEN, CHEST 4.939, WEIGHT5.432 NECK 5.736, HEADWTH 7.32 and Sex 10.75. While R-squared by now is SEX -0.008373, HEADWTH 0.5409, WEIGHT .07432, NECK 0.7467 , CHEST 0.791 andHEADLEN 0.8434. 
+Sex is going to have a different type of graph but still has the same results we can use. SEX has both the best and worst numbers in each category.   The new list for residual being  4.235 HEADLEN, CHEST 4.939, WEIGHT5.432 NECK 5.736, HEADWTH 7.32 and Sex 10.75. While R-squared by now is SEX 0.01065, HEADWTH 0.5409, WEIGHT .07432, NECK 0.7467 , CHEST 0.791 and HEADLEN 0.8434. 
 
 
 
+```{r}
+MYMONTH <- lm(LENGTH~MONTH,data=bears)
+plot(LENGTH~MONTH,data=bears)
+abline(MYMONTH)
+summary.lm(MYMONTH)
+```
 
 
 
