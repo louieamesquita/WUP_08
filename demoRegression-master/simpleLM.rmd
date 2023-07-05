@@ -54,7 +54,13 @@ summary.lm(MYHEADWTH)
 In the third graph the residual standard erorr is at 7.32 and t r-squared is 0.5409. in the comparision this result ranks last on the list
 
 
+```{r}
+MYWEIGHT <- lm(LENGTH~WEIGHT,data=bears)
+plot(LENGTH~WEIGHT,data=bears)
+abline(MYWEIGHT)
+summary.lm(MYWEIGHT)
 
+```
 
 
 
